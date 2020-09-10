@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "ForcedGrowth + v0.1.0",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Adds back forced updates from shakysand & zeroticking"
+        },
+        "icon": {
+            "item": "minecraft:piston"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Main": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vanillaplus:root"
+}
