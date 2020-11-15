@@ -12,7 +12,7 @@ execute as @e[type=area_effect_cloud,tag=forced_growth_setup] at @s if block ~ ~
 gamerule sendCommandFeedback true
 
 
-execute as @a[tag=!fg.zef_advancements] run function fg_zef:advancements
+execute as @a unless score @s VP.forced_growth matches 1 run function fg_zef:vanillaplus
 
 
 execute if score $Shakysand fg.zef_config matches 1 as @e[type=area_effect_cloud,tag=forced_growth] at @s unless block ~ ~ ~ #fg_zef:allowed run kill @s
