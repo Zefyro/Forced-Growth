@@ -1,6 +1,6 @@
 
 #> Vanilla+
-scoreboard objectives add VP.forced_growth
+scoreboard objectives add VP.forced_growth dummy
 
 # Disable command block output
 gamerule commandBlockOutput false
