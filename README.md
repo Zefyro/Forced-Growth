@@ -19,4 +19,6 @@ This datapack is unsupported on Forge and related projects.
 
 This datapack is unsupported on all Bukkit-derivatives. Additionally, the installation procedure needs to be altered to work with Bukkit-derivatives.
 
-This datapack is incompatible with EssentialsX and similar plugins.
+This datapack is entirely incompatible with EssentialsX and similar plugins.
+
+This datapack is entirely incompatible with Purpur, Yatopia and forks based on those jarfiles.
