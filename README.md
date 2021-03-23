@@ -1,6 +1,6 @@
 # Forced Growth
 
-A datapack for Minecraft 1.17 snapshots [21w05a](https://www.minecraft.net/en-us/article/minecraft-snapshot-21w05a) to re-enable Forced Growth
+A datapack for Minecraft 1.17 snapshots [21w05a+](https://www.minecraft.net/en-us/article/minecraft-snapshot-21w05a) to re-enable Forced Growth
 
 ## Installation
 
