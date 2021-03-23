@@ -20,3 +20,9 @@ This datapack is unsupported on Forge and related projects.
 This datapack is unsupported on all Bukkit-derivatives. Additionally, the installation procedure needs to be altered to work with Bukkit-derivatives.
 
 This datapack is incompatible with EssentialsX and similar plugins.
+
+## Features
+
+This datapack aims to bring back forced growth which were removed in [snapshot 20w12a](https://www.minecraft.net/en-us/article/minecraft-snapshot-20w12a) [[MC-113809]](https://bugs.mojang.com/browse/MC-113809).
+
+Everything is toggleable so you can change it to suit your needs.
