@@ -8,10 +8,9 @@ Running this datapack in 1.16.0 or 1.16.1 may give you an error or mark as incom
 
 To install the datapack, you need to make sure you are either playing in singleplayer or have file access to the server you want to install it to. Additionally, the datapack is only supported on Vanilla and Fabric.
 
-1. Head to https://github.com/Zefyro/Forced-Growth and press the `Download Code` button.
-2. Select `Download ZIP` and put it in your `datapacks` folder.
-3. Open the zip via double-click and drag the folder out.
-4. Run `/reload` in-game and enable the datapack
+1. Head to https://github.com/Zefyro/Forced-Growth/releases and select the version you are using.
+2. Download the `.zip` file and put it in your `datapacks` folder.
+3. Run `/reload` in-game and enable the datapack.
 
 ## Incompatibilities
 
