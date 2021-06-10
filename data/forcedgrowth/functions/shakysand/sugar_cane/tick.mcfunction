@@ -5,7 +5,7 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Detect--------------------------#
-execute unless entity @e[type=area_effect_cloud,tag=Forced-Growth,tag=!Forced-Growth-Setup,name="sugar_cane",distance=..1] run function forcedgrowth:shakysand/sugar_cane/detect
+execute unless entity @e[type=marker,tag=Forced-Growth,tag=!Forced-Growth-Setup,name="sugar_cane",distance=..1] run function forcedgrowth:shakysand/sugar_cane/detect
 #---------------------------Tick---------------------------#
-execute as @e[type=area_effect_cloud,tag=Forced-Growth,tag=!Forced-Growth-Setup,name="sugar_cane",distance=..1] at @s run function forcedgrowth:shakysand/sugar_cane/grow 
+execute as @e[type=marker,tag=Forced-Growth,tag=!Forced-Growth-Setup,name="sugar_cane",distance=..1] at @s run function forcedgrowth:shakysand/sugar_cane/grow 
 #----------------------------------------------------------#

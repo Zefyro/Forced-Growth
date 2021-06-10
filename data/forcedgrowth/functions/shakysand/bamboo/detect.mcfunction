@@ -5,5 +5,5 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Spawn---------------------------#
-summon area_effect_cloud ~ ~1 ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["ShakySand","Forced-Growth"],CustomName:'{"text":"bamboo"}'}
+summon marker ~ ~1 ~ {Tags:["ShakySand","Forced-Growth"],CustomName:'{"text":"bamboo"}'}
 #----------------------------------------------------------#

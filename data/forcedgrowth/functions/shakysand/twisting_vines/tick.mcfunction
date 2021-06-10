@@ -5,7 +5,7 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Detect--------------------------#
-execute unless entity @e[type=area_effect_cloud,tag=Forced-Growth,tag=!Forced-Growth-Setup,name="twisting_vines",distance=..1] run function forcedgrowth:shakysand/twisting_vines/detect
+execute unless entity @e[type=marker,tag=Forced-Growth,tag=!Forced-Growth-Setup,name="twisting_vines",distance=..1] run function forcedgrowth:shakysand/twisting_vines/detect
 #---------------------------Tick---------------------------#
-execute as @e[type=area_effect_cloud,tag=Forced-Growth,tag=!Forced-Growth-Setup,name="twisting_vines",distance=..1] at @s run function forcedgrowth:shakysand/twisting_vines/grow
+execute as @e[type=marker,tag=Forced-Growth,tag=!Forced-Growth-Setup,name="twisting_vines",distance=..1] at @s run function forcedgrowth:shakysand/twisting_vines/grow
 #----------------------------------------------------------#

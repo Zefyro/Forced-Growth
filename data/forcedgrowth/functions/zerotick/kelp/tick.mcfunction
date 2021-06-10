@@ -5,8 +5,8 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Detect--------------------------#
-execute as @e[type=area_effect_cloud,tag=Zerotick,tag=Forced-Growth,name="kelp"] at @s run function forcedgrowth:zerotick/kelp/detect
+execute as @e[type=marker,tag=Zerotick,tag=Forced-Growth,name="kelp"] at @s run function forcedgrowth:zerotick/kelp/detect
 #---------------------------Tick---------------------------#
-execute as @e[type=area_effect_cloud,tag=Zerotick,tag=Forced-Growth,name="kelp",tag=!Forced-Growth-Setup,tag=P.East,tag=P.West] at @s run function forcedgrowth:zerotick/kelp/grow-x
-execute as @e[type=area_effect_cloud,tag=Zerotick,tag=Forced-Growth,name="kelp",tag=!Forced-Growth-Setup,tag=P.North,tag=P.South] at @s run function forcedgrowth:zerotick/kelp/grow-z
+execute as @e[type=marker,tag=Zerotick,tag=Forced-Growth,name="kelp",tag=!Forced-Growth-Setup,tag=P.East,tag=P.West] at @s run function forcedgrowth:zerotick/kelp/grow-x
+execute as @e[type=marker,tag=Zerotick,tag=Forced-Growth,name="kelp",tag=!Forced-Growth-Setup,tag=P.North,tag=P.South] at @s run function forcedgrowth:zerotick/kelp/grow-z
 #----------------------------------------------------------#

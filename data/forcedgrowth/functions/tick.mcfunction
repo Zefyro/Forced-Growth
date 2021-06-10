@@ -10,7 +10,7 @@ execute as @a unless score @s VP.forced-growth matches 1 run function forcedgrow
 execute if score $Zerotick fg.config matches 1 run function forcedgrowth:zerotick/tick
 execute if score $Zerotick fg.config matches 1 as @a at @s run function forcedgrowth:zerotick/detect
 #---------------------------Kill---------------------------#
-execute as @e[type=area_effect_cloud,tag=Forced-Growth] at @s unless block ~ ~ ~ #forcedgrowth:allowed run kill @s
+execute as @e[type=marker,tag=Forced-Growth] at @s unless block ~ ~ ~ #forcedgrowth:allowed run kill @s
 #--------------------------Reset---------------------------#
 execute as @a run function forcedgrowth:reset
 #----------------------------------------------------------#

@@ -15,7 +15,7 @@ execute if entity @s[tag=P.West] unless block ~-2 ~-1 ~ sticky_piston[facing=eas
 execute if entity @s[tag=P.South] unless block ~ ~-1 ~2 sticky_piston[facing=north] run tag @s remove P.South
 execute if entity @s[tag=P.North] unless block ~ ~-1 ~-2 sticky_piston[facing=south] run tag @s remove P.North
 #---------------------------AECs---------------------------#
-execute unless entity @e[type=area_effect_cloud,tag=Forced-Growth,tag=!Forced-Growth-Setup,distance=..0.1] run execute if entity @s[tag=P.East,tag=P.West,tag=!P.North,tag=!P.South,tag=Forced-Growth-Setup] run summon area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["Zerotick","Forced-Growth"],CustomName:'{"text":"cactus"}'}
-execute unless entity @e[type=area_effect_cloud,tag=Forced-Growth,tag=!Forced-Growth-Setup,distance=..0.1] run execute if entity @s[tag=P.North,tag=P.South,tag=!P.East,tag=!P.West,tag=Forced-Growth-Setup] run summon area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["Zerotick","Forced-Growth"],CustomName:'{"text":"cactus"}'}
-execute as @s[tag=Forced-Growth-Setup] if entity @e[type=area_effect_cloud,tag=!Forced-Growth-Setup,tag=Forced-Growth,distance=..0.1] run kill @s
+execute unless entity @e[type=marker,tag=Forced-Growth,tag=!Forced-Growth-Setup,distance=..0.1] run execute if entity @s[tag=P.East,tag=P.West,tag=!P.North,tag=!P.South,tag=Forced-Growth-Setup] run summon marker ~ ~ ~ {Tags:["Zerotick","Forced-Growth"],CustomName:'{"text":"cactus"}'}
+execute unless entity @e[type=marker,tag=Forced-Growth,tag=!Forced-Growth-Setup,distance=..0.1] run execute if entity @s[tag=P.North,tag=P.South,tag=!P.East,tag=!P.West,tag=Forced-Growth-Setup] run summon marker ~ ~ ~ {Tags:["Zerotick","Forced-Growth"],CustomName:'{"text":"cactus"}'}
+execute as @s[tag=Forced-Growth-Setup] if entity @e[type=marker,tag=!Forced-Growth-Setup,tag=Forced-Growth,distance=..0.1] run kill @s
 #----------------------------------------------------------#
