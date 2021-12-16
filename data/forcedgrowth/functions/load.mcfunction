@@ -9,7 +9,6 @@ scoreboard objectives add fg.update dummy
 scoreboard objectives add fg.ShakySand dummy
 scoreboard objectives add fg.Zerotick dummy
 scoreboard objectives add fg.config dummy
-scoreboard objectives add VP.forced-growth dummy
 #> Zerotick detection
 scoreboard objectives add fg.raycast dummy
 scoreboard objectives add fg.p_bamboo minecraft.used:minecraft.bamboo

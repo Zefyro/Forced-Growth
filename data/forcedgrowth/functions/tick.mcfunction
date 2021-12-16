@@ -4,8 +4,6 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#-----------------------Vanillaplus------------------------#
-execute as @a unless score @s VP.forced-growth matches 1 run function forcedgrowth:vanillaplus
 #-------------------------Zerotick-------------------------#
 execute if score $Zerotick fg.config matches 1 run function forcedgrowth:zerotick/tick
 execute if score $Zerotick fg.config matches 1 as @a at @s run function forcedgrowth:zerotick/detect

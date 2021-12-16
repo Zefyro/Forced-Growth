@@ -9,7 +9,6 @@ scoreboard objectives remove fg.update
 scoreboard objectives remove fg.ShakySand
 scoreboard objectives remove fg.Zerotick
 scoreboard objectives remove fg.config
-scoreboard objectives remove VP.forced-growth
 #------------------------Gamerules-------------------------#
 execute if score $CommandBlockOutput fg.config matches 0 run gamerule commandBlockOutput false
 execute if score $CommandBlockOutput fg.config matches 1 run gamerule commandBlockOutput true
