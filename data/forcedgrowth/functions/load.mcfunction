@@ -9,7 +9,6 @@ scoreboard objectives add fg.update dummy
 scoreboard objectives add fg.ShakySand dummy
 scoreboard objectives add fg.Zerotick dummy
 scoreboard objectives add fg.config dummy
-scoreboard objectives add VP.forced-growth dummy
 #> Zerotick detection
 scoreboard objectives add fg.raycast dummy
 scoreboard objectives add fg.p_bamboo minecraft.used:minecraft.bamboo
@@ -55,5 +54,5 @@ execute in the_end run forceload add 12903911 18930941
 execute in the_end if block 12903911 0 18930941 repeating_command_block run setblock 12903911 0 18930941 air
 execute in the_end run setblock 12903911 0 18930941 repeating_command_block{conditionMet:1b, auto:1b, Command:"execute if score $ShakySand fg.config matches 1 run execute as @e[type=minecraft:falling_block,distance=0..] at @s if block ~ ~1 ~ #forcedgrowth:allowed run function forcedgrowth:shakysand/tick"}
 #-------------------------Message--------------------------#
-execute if score $ReloadMsg fg.config matches 1 run tellraw @a [{"text": "\n\n          Forced-Growth v0.2.0\n                ","color": "green"},{"text": "[Configure]","color": "gray","clickEvent": {"action": "suggest_command", "value": "/function forcedgrowth:config/menu"}},{"text": "\n\n"}]
+execute if score $ReloadMsg fg.config matches 1 run tellraw @a [{"text": "\n\n          Forced-Growth v0.2.1\n                ","color": "green"},{"text": "[Configure]","color": "gray","clickEvent": {"action": "suggest_command", "value": "/function forcedgrowth:config/menu"}},{"text": "\n\n"}]
 #----------------------------------------------------------#

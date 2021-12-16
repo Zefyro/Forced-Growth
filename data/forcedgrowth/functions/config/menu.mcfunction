@@ -7,7 +7,7 @@
 #-------------------------Message--------------------------#
 tellraw @s {"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 
-tellraw @s {"text": "            Forced-Growth v0.2.0 1.16.x            \n","color": "gold","hoverEvent": {"action": "show_text","value": {"text": "By Zefyro","color": "gray"}}}
+tellraw @s {"text": "            Forced-Growth v0.2.1 1.16.x            \n","color": "gold","hoverEvent": {"action": "show_text","value": {"text": "By Zefyro","color": "gray"}}}
 #> ShakySand
 execute if score $ShakySand fg.config matches 1 run tellraw @s [{"text": "\n            "},{"text": "[ShakySand]   ","color":"gray"},{"text": " [✔] ","color": "gray","hoverEvent": {"action":"show_text","value": "Enabled"}},{"text": " [❌] ","color": "red","hoverEvent": {"action":"show_text","value": "Click to disable"},"clickEvent": {"action":"run_command","value": "/function forcedgrowth:config/shakysand/disable"}},{"text": " [✏] ","color": "white","hoverEvent": {"action":"show_text","value": "Edit"},"clickEvent": {"action":"run_command","value": "/function forcedgrowth:config/shakysand/edit"}}]
 execute if score $ShakySand fg.config matches 0 run tellraw @s [{"text": "\n            "},{"text": "[ShakySand]   ","color":"gray"},{"text": " [✔] ","color": "green","hoverEvent": {"action":"show_text","value": "Click to enable"},"clickEvent": {"action":"run_command","value": "/function forcedgrowth:config/shakysand/enable"}},{"text": " [❌] ","color": "gray","hoverEvent": {"action":"show_text","value": "Disabled"}},{"text": " [✏] ","color": "white","hoverEvent": {"action":"show_text","value": "Edit"},"clickEvent": {"action":"run_command","value": "/function forcedgrowth:config/shakysand/edit"}}]

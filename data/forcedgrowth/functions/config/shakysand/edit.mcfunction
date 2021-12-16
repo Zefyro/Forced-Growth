@@ -7,7 +7,7 @@
 #-------------------------Message--------------------------#
 tellraw @s {"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 
-tellraw @s {"text": "            Forced-Growth v0.2.0 1.16.x            \n\n","color": "gold","hoverEvent": {"action": "show_text","value": {"text": "By Zefyro","color": "gray"}}}
+tellraw @s {"text": "            Forced-Growth v0.2.1 1.16.x            \n\n","color": "gold","hoverEvent": {"action": "show_text","value": {"text": "By Zefyro","color": "gray"}}}
 
 execute if score $Bamboo fg.ShakySand matches 0 run tellraw @s [{"text": "            "},{"text": " [✔] ","color": "green","hoverEvent": {"action":"show_text","value": "Click to enable"},"clickEvent": {"action": "run_command","value": "/function forcedgrowth:config/shakysand/enable/bamboo"}},{"text": " [❌] ","color": "gray","hoverEvent": {"action":"show_text","value": "Disabled"}},{"text": "   [Bamboo]","color": "gray"}]
 execute if score $Bamboo fg.ShakySand matches 1 run tellraw @s [{"text": "            "},{"text": " [✔] ","color": "gray","hoverEvent": {"action":"show_text","value": "Enabled"}},{"text": " [❌] ","color": "red","hoverEvent": {"action":"show_text","value": "Click to disable"},"clickEvent": {"action": "run_command","value": "/function forcedgrowth:config/shakysand/disable/bamboo"}},{"text": "   [Bamboo]","color": "gray"}]
