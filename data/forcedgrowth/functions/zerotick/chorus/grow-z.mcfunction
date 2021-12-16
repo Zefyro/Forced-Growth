@@ -13,7 +13,7 @@ execute if entity @s[tag=B.North,tag=B.South] unless block ~ ~-1 ~-1 air if bloc
 #---------------------------Grow---------------------------#
 execute if score @s fg.update matches 1.. if block ~ ~1 ~ air run setblock ~ ~ ~ chorus_plant
 execute if score @s fg.update matches 1.. if block ~ ~1 ~ air run tp @s ~ ~1 ~
-execute if score @s fg.update matches 1.. if block ~ ~ ~ air run setblock ~ ~1 ~ chorus_flower
+execute if score @s fg.update matches 1.. if block ~ ~ ~ air run setblock ~ ~ ~ chorus_flower
 execute if score @s fg.update matches 1.. run scoreboard players reset @s fg.update
 #--------------------------Reset---------------------------#
 execute if block ~ ~-1 ~1 air run tag @s remove B.South
